@@ -99,13 +99,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
-          <Slide transition={["zoom", "fade"]} bgColor="primary" notes="Binary Search Example">
-            <CodePane
-              lang="jsx"
-              source={require("raw!../assets/deck.example")}
-              margin="20px auto"
-            />
-          </Slide>
+
 
           <Slide transition={["fade"]} bgColor="secondary" textColor="white">
             <Heading textSize="2.5em">
@@ -199,7 +193,7 @@ export default class Presentation extends React.Component {
                 lang="go"
                 code={require("raw!../assets/duck.go")}
                 ranges={[
-                  { loc: [0, 1], title: "Duck Typing" },
+                  { loc: [0, 27], title: "Duck Typing" },
                   { loc: [2, 5], },
                   { loc: [5, 9] },
                   { loc: [9, 12], },
@@ -222,7 +216,7 @@ export default class Presentation extends React.Component {
               lang="go"
               code={require("raw!../assets/scoping.example")}
               ranges={[
-                { loc: [0, 1], title: "Scoping" },
+                { loc: [0, 12], title: "Scoping" },
                 { loc: [0, 9], },
                 { loc: [2, 6], },
                 { loc: [4, 5], },
@@ -239,7 +233,6 @@ export default class Presentation extends React.Component {
               Go Passes by Value & Pointer
             </Heading>
           </Slide>
-
           <CodeSlide
               transition={['fade']}
               lang="go"
