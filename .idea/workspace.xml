@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87755d87-cb29-4320-8af2-497a39e8db05" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/React_logo_wordmark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/appenginegophercolor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/binarySearch.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/city.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/compile.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/deck.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/duck.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/formidable-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/gophercolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/inference.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/interactive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/kat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/markdown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/passing.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/scoping.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/struct.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/assets/variable.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/presentation/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-presentation/webpack.config.production.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation_11_27.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectactle-presentation/presentation_11_27.pdf" afterPath="$PROJECT_DIR$/spectactle-presentation/presentation_11_27.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs/binarySearch.go" afterPath="$PROJECT_DIR$/programs/binarySearch.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs/duck.go" afterPath="$PROJECT_DIR$/programs/duck.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/go-server/public/dist/bundle.js" afterPath="$PROJECT_DIR$/go-server/public/dist/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spectactle-presentation/presentation/index.js" afterPath="$PROJECT_DIR$/spectactle-presentation/presentation/index.js" />
     </list>
     <ignored path="golang-research.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +27,7 @@
     <favorites_list name="golang-research" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/go-server/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,6 +56,7 @@
         <option value="$PROJECT_DIR$/go-presentation/assets/passing.example" />
         <option value="$PROJECT_DIR$/go-presentation/assets/binarySearch.example" />
         <option value="$PROJECT_DIR$/go-presentation/presentation/index.js" />
+        <option value="$PROJECT_DIR$/spectactle-presentation/presentation/index.js" />
         <option value="$PROJECT_DIR$/go-server/public/index.html" />
       </list>
     </option>
@@ -157,6 +127,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spectactle-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang-research" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang-research" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spectactle-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang-research" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang-research" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spectactle-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480216556729</updated>
       <workItem from="1480216558243" duration="15915000" />
-      <workItem from="1480234335799" duration="10973000" />
+      <workItem from="1480234335799" duration="12494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26888000" />
+    <option name="totallyTimeSpent" value="28409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -476,8 +482,34 @@
         <state relative-caret-position="-270">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectactle-presentation/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectactle-presentation/presentation/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="357" column="18" selection-start-line="357" selection-start-column="18" selection-end-line="357" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectactle-presentation/assets/application.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

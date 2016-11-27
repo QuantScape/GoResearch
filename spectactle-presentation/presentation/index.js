@@ -118,9 +118,6 @@ export default class Presentation extends React.Component {
                 { loc: [23, 29] },
                 { loc: [5, 6] },
                 { loc: [0, 7], title:"Binary Search" },
-
-
-
                 // ...
               ]}/>
 
@@ -342,7 +339,7 @@ export default class Presentation extends React.Component {
               <ListItem>Gogs (Go Git Service) -
                 <Link href="https://github.com/gogits/gogs"> gogits/gogs</Link>
               </ListItem>
-              <ListItem>GoReplay (Http Testing) -
+              <ListItem>GoReplay (HTTP Testing) -
                 <Link href="https://github.com/buger/gor"> buger/gor </Link>
               </ListItem>
               <ListItem>IronFunctions (Docker Deployment) -
@@ -359,13 +356,29 @@ export default class Presentation extends React.Component {
               <Link href="https://github.com/trending/go">github.com/trending/go</Link>
             </Text>
           </Slide>
+            <CodeSlide
+                transition={['fade']}
+                lang="go"
+                code={require("raw!../assets/application.example")}
+                ranges={[
+                    { loc: [0, 7], title: "HTTP Server" },
+                    { loc: [2, 3], },
+                    { loc: [4, 7] },
+                    { loc: [5, 6], },
+                    { loc: [0, 7], title: "HTTP Server" },
+                    // ...
+                ]}/>
           <Slide transition={["zoom"]} bgColor="secondary" textColor="white">
             <Heading textSize="2.5em">
               Bibliography
             </Heading>
             <List>
               <ListItem>Sedar Yegulalp - What's the Go language really good for?</ListItem>
-              <ListItem></ListItem>
+              <ListItem>Mat Ryer - Duck typing in Go</ListItem>
+              <ListItem>Rob Pike - The Go Gopher</ListItem>
+              <ListItem>Derek Banas - Go Programming (Video)</ListItem>
+              <ListItem>Todd McLeod - Golang HTTP Server (Video)</ListItem>
+              <ListItem>Go Programming Language Spec</ListItem>
             </List>
           </Slide>
           <Slide transition={["spin", "slide"]} bgColor="tertiary">
