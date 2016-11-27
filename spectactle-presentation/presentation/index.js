@@ -99,7 +99,30 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
+          <CodeSlide
+              transition={['fade']}
+              lang="go"
+              code={require("raw!../assets/binarySearch.example")}
+              ranges={[
+                { loc: [0, 7], title: "Binary Search" },
+                { loc: [3, 7], },
+                { loc: [4, 5] },
+                { loc: [5, 6], },
+                { loc: [7, 11] },
+                { loc: [10, 11],},
+                { loc: [11, 14] },
+                { loc: [15, 23] },
+                { loc: [14, 16] },
+                { loc: [16, 19] },
+                { loc: [19, 22] },
+                { loc: [23, 29] },
+                { loc: [5, 6] },
+                { loc: [0, 7], title:"Binary Search" },
 
+
+
+                // ...
+              ]}/>
 
           <Slide transition={["fade"]} bgColor="secondary" textColor="white">
             <Heading textSize="2.5em">
@@ -114,7 +137,7 @@ export default class Presentation extends React.Component {
 
           <Slide transition={["zoom"]} bgColor="primary" textColor="white">
             <Heading textSize="2.5em">
-              Functional *
+              Functional
             </Heading>
             <List>
               <ListItem>Higher-Order Functions</ListItem>
@@ -130,7 +153,7 @@ export default class Presentation extends React.Component {
 
           <Slide transition={["zoom"]} bgColor="primary" textColor="white">
             <Heading textSize="2.5em">
-              Object Oriented **
+              Object Oriented
             </Heading>
             <List>
               <ListItem>Encapsulation</ListItem>
@@ -200,6 +223,8 @@ export default class Presentation extends React.Component {
                   { loc: [12, 18] },
                   { loc: [18, 21],},
                   { loc: [21, 27] },
+                  { loc: [0, 27], title: "Duck Typing" },
+
                   // ...
                 ]}/>
 
@@ -225,6 +250,8 @@ export default class Presentation extends React.Component {
                 { loc: [7, 8], },
                 { loc: [10, 13],  },
                 { loc: [11, 12],  },
+                { loc: [0, 12], title:"Scoping" },
+
                 // ...
               ]}/>
 
@@ -238,19 +265,21 @@ export default class Presentation extends React.Component {
               lang="go"
               code={require("raw!../assets/passing.example")}
               ranges={[
-                { loc: [0, 12], title: "Pass By Value / Pointer" },
-                { loc: [0, 6], },
+                { loc: [0, 13], title: "Pass By Value / Pointer" },
+                { loc: [0, 7], },
                 { loc: [1, 2], },
                 { loc: [2, 3], },
-                { loc: [6, 9], },
-                { loc: [3, 4],  },
-                { loc: [9, 12], },
-                { loc: [4, 5], },
+                { loc: [7, 10], },
+                { loc: [3, 4], },
+                { loc: [4, 5],  },
+                { loc: [10, 13], },
+                { loc: [5, 6], },
+                { loc: [0, 13], title: "Pass By Value / Pointer"  },
                 // ...
               ]}/>
           <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
             <Heading  textSize="2.5em" textColor="tertiary">
-              Go & Structural Variables
+              Go Structural Variables
             </Heading>
             <List>
               <ListItem>Array, Slices, and Struct Types</ListItem>
@@ -281,8 +310,64 @@ export default class Presentation extends React.Component {
                 { loc: [2, 3], },
                 { loc: [11, 14],  },
                 { loc: [2, 4], },
+                { loc: [0, 13], title: "Structs" },
+
                 // ...
               ]}/>
+          <Slide transition={["zoom"]} bgColor="primary" textColor="white">
+          <Heading textSize="2.5em">
+            Go Domains: Server Side
+          </Heading>
+          <List>
+            <ListItem>Network applications need concurrency </ListItem>
+            <ListItem>Go has native concurrency support (goroutines,channels)</ListItem>
+            <ListItem>Examples: APIs, Web Servers, Web Apps</ListItem>
+            <ListItem>Real World: Google App Engine, Docker, Revel</ListItem>
+          </List>
+          </Slide>
+          <Slide transition={["zoom"]} bgColor="primary" textColor="white">
+              <Heading textSize="2.5em">
+                Go Domains: Command Line Interface (CLI)
+              </Heading>
+              <List>
+                <ListItem>Executables are stand-alone (No external dependencies)</ListItem>
+                <ListItem>Consistent Behavior</ListItem>
+          </List>
+        </Slide>
+          <Slide transition={["zoom"]} bgColor="primary" textColor="white">
+            <Heading textSize="2.5em">
+              Go Domains: Interesting Projects
+            </Heading>
+            <List>
+              <ListItem>Gogs (Go Git Service) -
+                <Link href="https://github.com/gogits/gogs"> gogits/gogs</Link>
+              </ListItem>
+              <ListItem>GoReplay (Http Testing) -
+                <Link href="https://github.com/buger/gor"> buger/gor </Link>
+              </ListItem>
+              <ListItem>IronFunctions (Docker Deployment) -
+                <Link href="https://github.com/iron-io/functions"> iron-io/functions </Link>
+              </ListItem>
+              <ListItem>Hugo (Static Site Generation) -
+                <Link href="https://github.com/spf13/hugo"> spf13/hugo </Link>
+              </ListItem>
+             <ListItem>Quorum (Etherum Ledger) -
+                <Link href="https://github.com/jpmorganchase/quorum"> jpmorganchase/quorum </Link>
+              </ListItem>
+            </List>
+            <Text textSize="1.5em" textColor="white">
+              <Link href="https://github.com/trending/go">github.com/trending/go</Link>
+            </Text>
+          </Slide>
+          <Slide transition={["zoom"]} bgColor="secondary" textColor="white">
+            <Heading textSize="2.5em">
+              Bibliography
+            </Heading>
+            <List>
+              <ListItem>Sedar Yegulalp - What's the Go language really good for?</ListItem>
+              <ListItem></ListItem>
+            </List>
+          </Slide>
           <Slide transition={["spin", "slide"]} bgColor="tertiary">
             <Heading textSize={"1.5em"} lineHeight={1.5} textColor="primary">
               QuantScape/golang-research

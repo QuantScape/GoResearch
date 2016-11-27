@@ -1,6 +1,7 @@
 func main(){
     x := 1
     byValue(x)
+    fmt.Println(x)  // 1
     byPointer(&x)
     fmt.Println(x)  // 2
 }
