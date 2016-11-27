@@ -226,6 +226,7 @@ double := func() int {
 fmt.Println(double()) // Output - 2
 fmt.Println(double()) // Output - 4
 }
+```
 
 Recursion
 ```Go
