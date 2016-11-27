@@ -1,4 +1,4 @@
-# Go CheatSheet
+# Go Cheat Sheet
 
 Variables are statically typed (regardless of how they are initialized)
 
