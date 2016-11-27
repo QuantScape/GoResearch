@@ -1,4 +1,4 @@
-# Go CheatSheet
+# Go Cheat Sheet
 
 Variables are statically typed (regardless of how they are initialized)
 
@@ -226,6 +226,7 @@ double := func() int {
 fmt.Println(double()) // Output - 2
 fmt.Println(double()) // Output - 4
 }
+```
 
 Recursion
 ```Go
