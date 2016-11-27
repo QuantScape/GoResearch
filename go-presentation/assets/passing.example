@@ -1,0 +1,12 @@
+func main(){
+    x := 1
+    byValue(x)
+    byPointer(&x)
+    fmt.Println(x)  // 2
+}
+func byValue(x int){
+    x += 1
+}
+func byPointer(x *int){
+    x +=1
+}

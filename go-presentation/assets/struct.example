@@ -1,0 +1,14 @@
+func main(){
+    myLine := Line{x1: 0, x2: 5, y1: 0, y2: 5}
+    fmt.Println("Slope is ", myLine.slope())
+    // Slope is 1
+}
+type Line struct {
+    x1 float64
+    x2 float64
+    y1 float64
+    y2 float64
+}
+func (lin *Line) slope() float64{
+    return ((lin.y1 - lin.y2) / (lin.x1 - lin.x2))
+}
