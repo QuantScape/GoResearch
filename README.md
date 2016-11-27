@@ -1,7 +1,9 @@
 # Go CheatSheet
 
 Variables are statically typed (regardless of how they are initialized)
+
 Variables must start with a letter, can be followed by numbers & underscores
+
 The below examples use the package "fmt" you must import it to use the output functionality.
 
 ```Go
